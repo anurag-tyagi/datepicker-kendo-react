@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/datepicker-kendo-react/static/css/main.3cbeb2fd.css",
+    "main.js": "/datepicker-kendo-react/static/js/main.40917274.js",
+    "static/js/787.c33bac34.chunk.js": "/datepicker-kendo-react/static/js/787.c33bac34.chunk.js",
+    "index.html": "/datepicker-kendo-react/index.html",
+    "main.3cbeb2fd.css.map": "/datepicker-kendo-react/static/css/main.3cbeb2fd.css.map",
+    "main.40917274.js.map": "/datepicker-kendo-react/static/js/main.40917274.js.map",
+    "787.c33bac34.chunk.js.map": "/datepicker-kendo-react/static/js/787.c33bac34.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3cbeb2fd.css",
+    "static/js/main.40917274.js"
+  ]
+}
