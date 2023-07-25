@@ -12,7 +12,7 @@ const App = () => {
   const [details, setDetails] = React.useState([]);
   const handleSubmit = (dataItem: { [name: string]: any }, e: any) => {
     const formData = new FormData(e.target);
-    setDetails([...formData]);
+    // setDetails([...formData]);
   };
   return (
     <div style={{ padding: 30 }}>
@@ -24,7 +24,7 @@ const App = () => {
               <legend className={"k-form-legend"}>
                 Please fill in the fields:
               </legend>
-              <div className="mb-3">
+              <div className='mb-3'>
                 <Field
                   name={"date"}
                   type={"date"}
@@ -34,7 +34,7 @@ const App = () => {
                   placeHolder={"Enter the date"}
                 />
               </div>
-              <div className="mb-3">
+              <div className='mb-3'>
                 <Field
                   name={"dateExt"}
                   type={"dateExt"}
@@ -45,12 +45,11 @@ const App = () => {
                 />
               </div>
             </fieldset>
-            <div className="k-form-buttons">
+            <div className='k-form-buttons'>
               <button
                 type={"submit"}
-                className="k-button k-button-md k-rounded-md k-button-solid k-button-solid-base"
-                disabled={!formRenderProps.allowSubmit}
-              >
+                className='k-button k-button-md k-rounded-md k-button-solid k-button-solid-base'
+                disabled={!formRenderProps.allowSubmit}>
                 Submit
               </button>
             </div>
